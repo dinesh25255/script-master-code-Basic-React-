@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+function App(){
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <>
+    <center>
+
+    <h1>
+    <p>Hello ! I am Dinesh Bhatt</p>
+    </h1>
+
+    <p>Today i learned about react. What is react why and when to use react.
+          Setup node and npm. create a react app using npx and npm vite. What is
+          package.json in our react app source code/project root folder and
+          finally edit the src directory.
+          
+          </p>
+
+
+
+
+    
+    </center>
+    <p>Outside center tag</p>
+
+    </>
+
   );
-}
+  
+  }
+
+
+
 
 export default App;
